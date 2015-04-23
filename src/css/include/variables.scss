@@ -1,0 +1,21 @@
+$white:     #FFF;
+$black:     #000;
+
+$light:     #EAEAEA;
+$grey:      #EFEFEF;
+$dark:      #212121;
+
+$success:   #5CB85C;
+$error:     #D9534F;
+$warn:      #F0AD4E;
+$info:      #5BC0DE;
+
+$light-border:      darken($light, 10);
+$dark-border:       lighten($dark, 5);
+$success-border:    darken($success, 5);
+$error-border:      darken($error, 5);
+$warn-border:       darken($warn, 5);
+$info-border:       darken($info, 5);
+
+$collapse:      800px;
+$margin-bottom: 10px;

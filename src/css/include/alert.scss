@@ -1,0 +1,11 @@
+alert {
+    display: block;
+    padding: 18px 25px;
+    border-radius: 2px;
+    margin-bottom: $margin-bottom;
+}
+            
+alert p {
+    display: inline-block;
+    margin: 5px 0;
+}
