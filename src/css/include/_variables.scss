@@ -1,17 +1,18 @@
 $white:     #FFF;
 $black:     #000;
 
-$light:     #EAEAEA;
+$light:     #FAFAFA;
 $grey:      #EFEFEF;
-$dark:      #212121;
+$dark:      #333333;
 
-$success:   #5CB85C;
-$error:     #D9534F;
-$warn:      #F0AD4E;
-$info:      #5BC0DE;
+$success:   #2EB244;
+$error:     #D84540;
+$warn:      #F2A840;
+$info:      #50C2E5;
 
-$light-border:      darken($light, 10);
+$light-border:      darken($light, 3);
 $dark-border:       lighten($dark, 5);
+
 $success-border:    darken($success, 5);
 $error-border:      darken($error, 5);
 $warn-border:       darken($warn, 5);

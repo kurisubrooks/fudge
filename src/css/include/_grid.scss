@@ -33,7 +33,7 @@ box {
 }
 
 @for $i from 1 through $sz {
-  box.col-#{$i}{
-    width: $base-box-width * $i + $box-margin * 2 * ($i - 1);
-  }
+    box.col-#{$i}{
+        width: $base-box-width * $i + $box-margin * 2 * ($i - 1);
+    }
 }

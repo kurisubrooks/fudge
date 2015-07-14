@@ -1,0 +1,117 @@
+@import "variables";
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+
+    background-color: $white;
+    color: $dark;
+    margin: 0;
+}
+
+body.dark {
+    background-color: $dark;
+    color: $white;
+}
+
+main, wrap, .container {
+    margin: 0 15px;
+}
+
+h1.title,
+h2.title,
+h3.title,
+h4.title,
+h5.title,
+h6.title {
+    margin-bottom: 5px;
+    border-bottom: 1px solid $grey;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+}
+
+h1 {font-size: 2.25em;  margin: 30px 0;}
+h2 {font-size: 1.85em;  margin: 20px 0;}
+h3 {font-size: 1.50em;  margin: 18px 0;}
+h4 {font-size: 1.25em;  margin: 15px 0;}
+h5 {font-size: 1.00em;  margin: 12px 0;}
+h6 {font-size: 0.75em;  margin: 8px 0;}
+
+b, strong {
+    font-weight: 500;
+}
+
+.white {background-color: $white;}
+.black {background-color: $black;}
+
+.light {
+    color:  $dark;
+    background-color: $light;
+    border: 1px solid $light-border;
+    
+    &:hover,
+    &:active {
+        background-color: $light-border;
+    }
+}
+
+.dark {
+    color:  $white;
+    background-color: $dark;
+    border: 1px solid $dark-border;
+    
+    &:hover,
+    &:active {
+        background-color: $dark-border;
+    }
+}
+
+.success {
+    color: $white;
+    background-color: $success;
+    border: 1px solid $success-border;
+    
+    &:hover,
+    &:active {
+        background-color: $success-border;
+    }
+}
+
+.error {
+    color: $white;
+    background-color: $error;
+    border: 1px solid $error-border;
+    
+    &:hover,
+    &:active {
+        background-color: $error-border;
+    }
+}
+
+.warn {
+    color: $white;
+    background-color: $warn;
+    border: 1px solid $warn-border;
+    
+    &:hover,
+    &:active {
+        background-color: $warn-border;
+    }
+}
+
+.info {
+    color: $white;
+    background-color: $info;
+    border: 1px solid $info-border;
+    
+    &:hover,
+    &:active {
+        background-color: $info-border;
+    }
+}
+
+.no-margin  {margin: 0 !important;}
+.no-border  {border: none !important;}
+.no-radius  {border-radius: 0 !important;}

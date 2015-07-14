@@ -1,12 +1,15 @@
+/*
+ *      Fudge.css
+ */
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
   background-color: #FFF;
-  color: #212121;
+  color: #333333;
   margin: 0; }
 
 body.dark {
-  background-color: #212121;
+  background-color: #333333;
   color: #FFF; }
 
 main, wrap, .container {
@@ -58,34 +61,46 @@ b, strong {
   background-color: #000; }
 
 .light {
-  background-color: #EAEAEA;
-  color: #212121;
-  border: 1px solid #d1d1d1; }
+  background-color: #FAFAFA;
+  color: #333333;
+  border: 1px solid #f2f2f2; }
+  .light:hover, .light:active {
+    background-color: #f2f2f2; }
 
 .dark {
-  background-color: #212121;
+  background-color: #333333;
   color: #FFF;
-  border: 1px solid #2e2e2e; }
+  border: 1px solid #404040; }
+  .dark:hover, .dark:active {
+    background-color: #404040; }
 
 .success {
-  background-color: #5CB85C;
+  background-color: #2EB244;
   color: #FFF;
-  border: 1px solid #4cae4c; }
+  border: 1px solid #299e3c; }
+  .success:hover, .success:active {
+    background-color: #299e3c; }
 
 .error {
-  background-color: #D9534F;
+  background-color: #D84540;
   color: #FFF;
-  border: 1px solid #d43f3a; }
+  border: 1px solid #d3312b; }
+  .error:hover, .error:active {
+    background-color: #d3312b; }
 
 .warn {
-  background-color: #F0AD4E;
+  background-color: #F2A840;
   color: #FFF;
-  border: 1px solid #eea236; }
+  border: 1px solid #f09d28; }
+  .warn:hover, .warn:active {
+    background-color: #f09d28; }
 
 .info {
-  background-color: #5BC0DE;
+  background-color: #50C2E5;
   color: #FFF;
-  border: 1px solid #46b8da; }
+  border: 1px solid #3abae2; }
+  .info:hover, .info:active {
+    background-color: #3abae2; }
 
 .no-margin {
   margin: 0 !important; }
@@ -106,9 +121,9 @@ alert p {
   display: inline-block;
   margin: 5px 0; }
 
-button {
+button, .btn {
   display: inline-block;
-  padding: 7px 16px;
+  padding: 7px 17px;
   cursor: pointer;
   border: none;
   background-color: inherit;
